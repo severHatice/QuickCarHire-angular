@@ -1,0 +1,26 @@
+<div class="card vehicle-card">
+  <!-- (click)="navigateToVehicle() -->
+  <div class="image-container">
+    <img [src]="imageSrc" alt="Vehicle Image" class="card-img-top">
+    <span class="price">
+      <span>${{ vehicle.pricePerHour }}</span>/hour
+    </span>
+  </div>
+  <div class="card-body">
+    <h5 class="card-title">{{ vehicle.model }}</h5>
+    <ul class="row g-1">
+      <li class="col-6">
+        <ion-icon name="logo-playstation"></ion-icon> {{ vehicle.fuelType }} 
+      </li>
+      <li class="col-6">
+        <ion-icon name="snow-outline"></ion-icon> {{ vehicle.airConditioning ? "AC exists" : "AC not exists" }}
+      </li>
+      <li class="col-6">
+        <ion-icon name="car-outline"></ion-icon> {{ vehicle.doors }} doors 
+      </li>
+      <li class="col-6">
+        <img src="assets/caravan.png" alt="caravan-outline">{{ vehicle.luggage }} lt 
+      </li>
+    </ul>
+  </div>
+</div>

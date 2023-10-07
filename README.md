@@ -1,3 +1,14 @@
+## ng add @ng-bootstrap/ng-bootstrap
+added bootstrap 
+
+## ng generate module app-routing
+
+## npm install ngx-bootstrap --save
+
+
+
+
+
 # CarRentalAngular
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.4.
